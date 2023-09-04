@@ -1,13 +1,13 @@
-module "s3_bucket" {
-  source = "terraform-aws-modules/s3-bucket/aws"
+# module "s3_bucket" {
+#   source = "terraform-aws-modules/s3-bucket/aws"
 
-#   bucket = "mgiuelxg-tf-isv-training"
-  bucket_prefix = "miguelgonzalez"
-  acl    = "private"
+# #   bucket = "mgiuelxg-tf-isv-training"
+#   bucket_prefix = "miguelgonzalez"
+#   acl    = "private"
 
-  versioning = {
-    enabled = true
-  }
+#   versioning = {
+#     enabled = true
+#   }
 
   
-}
+# }
