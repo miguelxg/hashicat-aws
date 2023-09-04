@@ -3,7 +3,7 @@ module "s3_bucket" {
 
 #   bucket = "mgiuelxg-tf-isv-training"
   bucket_prefix = "miguelgonzalez"
-  acl    = "private"
+#   acl    = "private"
 
   versioning = {
     enabled = true
